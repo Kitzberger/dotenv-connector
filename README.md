@@ -46,7 +46,7 @@ Set this to `false` if you want to be able to override application behavior with
 
 #### `cache-dir`
 If you want to make use of the caching feature of this plugin, you must set this value to a valid (and writable) path.
-The cache file is written during application runtime (when composer class loader is initialized), **not** during `composer intall`
+The cache file is written during application runtime (when composer class loader is initialized), **not** during `composer install`
 
 *The default value* is "" which means no caching is done at all.
 
